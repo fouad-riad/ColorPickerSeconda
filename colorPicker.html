@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Color Picker</title>
+      <link rel="stylesheet" href="./colorPicker2.css" />
+   </head>
+   <body>
+      <h1>COLOR PICKER</h1>
+      <main>
+         <div class="wrapper">
+            <ul class="settings">
+               <h3>Impostazioni</h3>
+               <li class="toggle-immagini">Toggle immagine</li>
+               <li class="toggle-colori">Toggle colori</li>
+            </ul>
+            <section id="color-picker">
+               <div class="color-picker-element" data-color="goldenrod"></div>
+               <div class="color-picker-element" data-color="yellowgreen"></div>
+               <div class="color-picker-element" data-color="yellow"></div>
+               <div class="color-picker-element" data-color="orangered"></div>
+               <div class="color-picker-element" data-color="orange"></div>
+
+               <div class="color-picker-selected">
+                  <img />
+               </div>
+            </section>
+
+            <div id="slider">
+               <img src="./1.jpeg" alt="" class="visibile" />
+               <img src="./2.jpeg" alt="" class="prossima" />
+               <img src="./3.jpeg" alt="" />
+               <img src="./4.jpeg" alt="" />
+            </div>
+         </div>
+      </main>
+      <script src="./colorPicker.js"></script>
+      <script src="./slider.js"></script>
+   </body>
+</html>
